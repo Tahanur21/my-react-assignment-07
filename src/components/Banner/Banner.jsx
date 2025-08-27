@@ -6,7 +6,7 @@ const Banner = ({handleAmount}) => {
             <div className='py-3'>
                 <img src="/src/assets/images/banner-main.png" alt="no_image" />
             </div>
-            <h1 className='text-3xl lg:text-6xl'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
+            <h1 className='text-3xl lg:text-5xl'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
             <p className='text-xl'>Beyond Boundaries Beyond Limits</p>
                             <button onClick={()=>{
                     handleAmount(660000)

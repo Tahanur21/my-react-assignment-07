@@ -11,8 +11,18 @@ function App() {
     setAmount(newAmount)
     notify()
   }
+  const handleRemoveAmount = (spend)=>{
+     if(amount <=0){
+      const handleAmount = () => toast.error("Not enough money");
+      handleAmount();
+    }
+    else{
+      const newAmount = amount - spend;
+     setAmount(newAmount)
+    }
+  }
   // tostify
-  const notify = () => toast("Coins added",)
+  const notify = () => toast("Coins added")
   // for button activation
   const [isActive,setActive] = useState({
     content: true,
@@ -39,8 +49,11 @@ function App() {
           <Header amount={amount} />
           <Banner handleAmount={handleAmount} />
           <Buttons
+          amount={amount}
           isActive={isActive}
-          handleActive={handleActive}/>
+          handleActive={handleActive}
+          handleAmount={handleAmount}
+          handleRemoveAmount={handleRemoveAmount}/>
         </div>
         <ToastContainer
           position="top-center"

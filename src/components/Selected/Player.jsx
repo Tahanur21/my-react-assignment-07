@@ -1,5 +1,5 @@
 import { MdDelete } from "react-icons/md";
-const Player = ({player}) => {
+const Player = ({player,handleRemover,handleAmount}) => {
     const {playerId,name,country,image,role,batting,bidding_price} = player
     return (
         <div className="border-2 border-gray-300 rounded-2xl p-8 mb-10">
@@ -13,7 +13,10 @@ const Player = ({player}) => {
                     <p className="text-lg text-[#635e5e]">{role}</p>
                 </div>
             </div>
-            <button className="text-4xl text-red-400 cursor-pointer"><MdDelete /></button>
+            <button onClick={()=>{
+                handleRemover(playerId);
+                handleAmount(bidding_price)
+            }} className="text-4xl text-red-400 cursor-pointer"><MdDelete /></button>
         </div>
         </div>
         

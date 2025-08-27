@@ -1,12 +1,12 @@
 import { ImUser } from "react-icons/im";
 import { FaFlag } from "react-icons/fa";
-const Card = ({ avail,handleSelectPlayer }) => {
-const {playerId,name,country,image,role,batting,bidding_price} = avail
+const Card = ({ avail,handleSelectPlayer,handleRemoveAmount }) => {
+const {name,country,image,role,batting,bidding_price} = avail
     return (
         <div>
             {/* card from daisyUi */}
             <div className="card bg-base-100 border border-gray-200">
-                <figure className="p-5 w-lg h-80">
+                <figure className="p-5 pt-6 w-md h-80 mx-auto">
                     <img className=" rounded-2xl w-full h-full object-cover"
                         src={image}
                         alt="image_of_player" />
@@ -34,7 +34,8 @@ const {playerId,name,country,image,role,batting,bidding_price} = avail
                         <h2 className="text-xl font-semibold">Price : ${bidding_price}</h2>
                         <button
                         onClick={()=>{
-                            handleSelectPlayer(avail)
+                            handleSelectPlayer(avail);
+                            handleRemoveAmount(bidding_price)
                         }}
                         className="btn bg-[#E7FE29] rounded-xl px-7 py-6 text-lg text-[#635e5e] font-bold">Choose Player</button>
                     </div>
