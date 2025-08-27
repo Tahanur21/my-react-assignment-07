@@ -1,0 +1,92 @@
+[
+  {
+    "playerId": 1,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "image": "https://tfe-bd.sgp1.cdn.digitaloceanspaces.com/posts/23248/shakib-al-hasan-12.jpg",
+    "role": "All-rounder",
+    "batting": "Left-handed",
+    "bidding_price": 12000
+  },
+  {
+    "playerId": 2,
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "image": "https://assets.thehansindia.com/h-upload/2020/09/20/999940-chris-gayle.webp",
+    "role": "Batsman",
+    "batting": "Left-handed",
+    "bidding_price": 20000
+  },
+  {
+    "playerId": 3,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "image": "https://i0.wp.com/crictoday.com/wp-content/uploads/2023/03/000_96W4B6-e1621670208778-1-1.jpg?fit=1200%2C675&ssl=1",
+    "role": "Bowler",
+    "batting": "Left-handed",
+    "bidding_price": 10000
+  },
+  {
+    "playerId": 4,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202504/andre-russell-263515637-16x9.jpg?VersionId=ij_Cd7WeiUFVNwgg3SYQr6VM0qLRp1K8&size=690:388",
+    "role": "All-rounder",
+    "batting": "Right-handed",
+    "bidding_price": 18000
+  },
+  {
+    "playerId": 5,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/301400/301403.6.jpg",
+    "role": "Batsman",
+    "batting": "Left-handed",
+    "bidding_price": 9000
+  },
+  {
+    "playerId": 6,
+    "name": "David Warner",
+    "country": "Australia",
+    "image": "https://www.zapcricket.com/cdn/shop/articles/WhatsApp_Image_2024-07-24_at_14.38.38.webp?v=1721812636",
+    "role": "Batsman",
+    "batting": "Left-handed",
+    "bidding_price": 16000
+  },
+  {
+    "playerId": 7,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://c.ndtvimg.com/2024-06/8mvq5v38_rashid-khan_625x300_26_June_24.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+    "role": "Bowler",
+    "batting": "Right-handed",
+    "bidding_price": 15000
+  },
+  {
+    "playerId": 8,
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "image": "https://i0.wp.com/crictoday.com/wp-content/uploads/2023/06/mahmudullah-1200.jpg",
+    "role": "All-rounder",
+    "batting": "Right-handed",
+    "bidding_price": 9500
+  },
+  {
+    "playerId": 9,
+    "name": "Imrul Kayes",
+    "country": "Bangladesh",
+    "image": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/imrulkayesheadshot-min.jpg",
+    "role": "Batsman",
+    "batting": "Left-handed",
+    "bidding_price": 6000
+  },
+  {
+    "playerId": 10,
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "image": "https://images.mykhel.com/img/2025/04/sunil-narine-200-wickets-kkr-ft-1743729953.jpg",
+    "role": "All-rounder",
+    "batting": "Left-handed",
+    "bidding_price": 14000
+  }
+]
