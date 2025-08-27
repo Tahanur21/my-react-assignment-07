@@ -12,10 +12,15 @@ const Buttons = ({ handleActive, isActive }) => {
         .then(res => res.json())
         .then(data => setAvailable(data))
     },[])
+    const [selectPlayers,setPlayer] = useState([]);
+    const handleSelectPlayer = (player) =>{
+        const newPlayer = [...selectPlayers, player];
+        setPlayer(newPlayer);
+    }
     return (
         <div>
             <div className="mt-20 flex justify-between items-center">
-                <h1 className="text-2xl font-bold">Available Players</h1>
+                <h1 className="text-2xl font-bold">{content?"Available Players":"Selected Players"}</h1>
                 <div>
                     <button
                         onClick={() => {
@@ -34,9 +39,9 @@ const Buttons = ({ handleActive, isActive }) => {
                     content?
                     <Available 
                     availables={availables}
-                    
+                    handleSelectPlayer={handleSelectPlayer}
                     />
-                    :<Selected/>
+                    :<Selected selectPlayers={selectPlayers}/>
                 }
             </div>
         </div>

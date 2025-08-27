@@ -1,11 +1,12 @@
 import Card from './Card';
 
-const Available = ({availables}) => {
+const Available = ({availables,handleSelectPlayer}) => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
             {
                 availables.map((avail,idx)=>
                 <Card 
+                handleSelectPlayer={handleSelectPlayer}
                 key={idx}
                 avail={avail}/>)
             }

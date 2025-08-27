@@ -1,8 +1,14 @@
+import Player from "./Player";
 
-const Selected = () => {
+const Selected = ({selectPlayers}) => {
     return (
-        <div>
-            <h1>Hi I am Selected Cart</h1>
+        <div className="my-5">
+            {
+                selectPlayers.map((player,idx )=>
+                <Player
+                key={idx}
+                player={player}/>)
+            }
         </div>
     );
 };
