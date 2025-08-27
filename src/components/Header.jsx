@@ -2,7 +2,7 @@ import { BsCoin } from "react-icons/bs";
 
 const Header = ({amount}) => {
     return (
-        <div className="flex justify-between text-2xl mt-8 mb-8">
+        <div className="scroll-auto flex justify-between text-2xl mt-8 mb-8">
            <div>
             <img src="/src/assets/images/logo.png" alt="" />
             </div>

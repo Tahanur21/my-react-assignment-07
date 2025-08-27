@@ -8,11 +8,9 @@ const Banner = ({handleAmount}) => {
             </div>
             <h1 className='text-3xl lg:text-6xl'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
             <p className='text-xl'>Beyond Boundaries Beyond Limits</p>
-            <button className='btn-inside rounded-2xl mt-8'>
-                <button onClick={()=>{
+                            <button onClick={()=>{
                     handleAmount(660000)
                 }} className='bg-[#E7FE29] text-black px-4 py-4 rounded-2xl font-bold btn-claim'>Claim Free Credit</button>
-            </button>
         </div>
     );
 };
