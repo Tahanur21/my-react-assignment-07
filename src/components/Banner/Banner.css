@@ -1,0 +1,15 @@
+.banner{
+    background-image: url('/src/assets/images/bg-shadow.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(19, 19, 19, 1);
+    border-radius: 30px;
+}
+.btn-claim{
+    cursor: pointer;
+    border: 8px solid #5b610d;
+}
+.btn-inside{
+    border: 1px solid #68720ec4;
+}
